@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "dicoding-bookshelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server",
+    "dev": "nodemon ./src/server",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "alfianokt",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  }
+}
